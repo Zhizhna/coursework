@@ -56,4 +56,12 @@ public class Employee{
     public String toString() {
         return "id=" + id + ", fullName='" + fullName + ", department=" + department + ", salary=" + salary;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 }
